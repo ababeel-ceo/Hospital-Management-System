@@ -1,0 +1,45 @@
+body{
+    background-image: url(images/loginbg.jpeg);
+    background-size: cover;
+}
+
+#main{
+
+    top: 35%;
+    left: 35%;
+    position:absolute;
+}
+#admin-module{
+    background-color: #ebf2fa;
+    padding: 60px 40px 50px 40px;
+    border-radius: 15px;
+    height: 150px;
+}
+img{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 60px;
+
+}
+.text-box{
+    height: 30px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn{
+    margin-left: 80px;
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: rgb(168, 154, 129);
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #744343;
+    text-indent: 10px;
+  }
+.err{
+    color: red;
+}

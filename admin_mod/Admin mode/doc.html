@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Doctor report 
+        </title>
+    </head>
+    <body>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-company" role="tabpanel" aria-labelledby="pills-company-tab">
+              <div class="container-fluid">
+                <label class="mb-3 font-weight-bold h4">Enter Doctor ID</label>
+      
+                <div  class="form-group">
+                <form action="admin_report.php"method="post">
+      
+                  <input type="number" class="form-control" name="doc_id" required><br><br>
+      
+                  <div class="text-center">
+                  <input type="submit" value="Generate Report" class="btn btn-secondary" name="d_rep">
+                </div>
+      
+                </form>
+              </div>
+              
+            </div>
+    </body>
+</html>
